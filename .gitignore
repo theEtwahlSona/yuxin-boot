@@ -37,3 +37,4 @@ build/
 ### Mac OS ###
 .DS_Store
 /yuxin-server/src/main/resources/application-etwahl.yaml
+**/.flattened-pom.xml
