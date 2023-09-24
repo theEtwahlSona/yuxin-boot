@@ -5,22 +5,24 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>cn.hinata.yuxin</groupId>
-        <artifactId>yuxin</artifactId>
+        <artifactId>yuxin-module-system</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>yuxin-server</artifactId>
+    <artifactId>yuxin-module-system-biz</artifactId>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
-    <description>后端主项目</description>
+    <description>
+        system 模块下，我们放通用业务，支撑上层的核心业务。
+        例如说：用户、部门、权限、数据字典等等
+    </description>
     <url>https://github.com/theEtwahlSona/yuxin-boot</url>
 
     <dependencies>
         <dependency>
             <groupId>cn.hinata.yuxin</groupId>
-            <artifactId>yuxin-module-system-biz</artifactId>
-            <version>${revision}</version>
+            <artifactId>yuxin-spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 </project>
