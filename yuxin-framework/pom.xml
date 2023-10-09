@@ -28,5 +28,6 @@
     <modules>
         <module>yuxin-common</module>
         <module>yuxin-spring-boot-starter-web</module>
+        <module>yuxin-spring-boot-starter-mybatis</module>
     </modules>
 </project>

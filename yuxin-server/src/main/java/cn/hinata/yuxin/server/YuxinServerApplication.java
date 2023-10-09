@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Author Etwahl
  * @Date 2023-09-24 19:02
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"cn.hinata.yuxin.module"})
 public class YuxinServerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(YuxinServerApplication.class, args);

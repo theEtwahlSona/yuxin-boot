@@ -24,5 +24,10 @@
             <groupId>cn.hinata.yuxin</groupId>
             <artifactId>yuxin-spring-boot-starter-web</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>cn.hinata.yuxin</groupId>
+            <artifactId>yuxin-spring-boot-starter-mybatis</artifactId>
+        </dependency>
     </dependencies>
 </project>
