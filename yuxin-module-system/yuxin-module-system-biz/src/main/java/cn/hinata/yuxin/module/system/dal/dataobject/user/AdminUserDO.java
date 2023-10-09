@@ -1,5 +1,6 @@
 package cn.hinata.yuxin.module.system.dal.dataobject.user;
 
+import cn.hinata.yuxin.framework.mybatis.core.type.JsonLongSetTypeHandler;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -46,7 +47,8 @@ public class AdminUserDO {
 	/**
 	 * 岗位编号数组
 	 */
-//	private Set<Long> postIds;
+	@TableField(typeHandler = JsonLongSetTypeHandler.class)
+	private Set<Long> postIds;
 	/**
 	 * 用户邮箱
 	 */
